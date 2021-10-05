@@ -1,0 +1,55 @@
+.layout{
+    display: flex;
+    font-size: 1rem;
+    border: 2.5rem solid hsl(244, 38%, 16%);
+    
+}
+.layout > div,h1{
+    height: 21rem;
+    width: 100%;
+    background-color: hsl(233, 47%, 7%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    
+}
+.layout > div,p{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    border:0px;
+    
+}
+.iam {
+    border: 0rem;
+    margin: 0rem;
+}
+
+
+.layout >div , table {
+    width:100%;
+    text-align: center;
+    
+
+}
+
+.cool{
+     height: 15rem; 
+    width:100% ;
+    border-radius: 0.75rem;
+    color: red;
+    filter: grayscale(30px);
+}
+.h1{
+    color: purple;
+}
+@media  (max-width:800px){
+    .layout{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+@media (max-width:1000px){
+    .layout >div , table{
+        -ms-grid-row-span:all;
+    }
+}
+  
